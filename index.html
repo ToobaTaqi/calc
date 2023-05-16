@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doraemon</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 
+calculator starts here -->
+        <div class="calculator">
+
+            <table>
+                <input type="text" id="result">
+
+                <tr>
+                    <td><button onclick="getn('7')">7</button></td>
+                    <td><button onclick="getn('8')">8</button></td>
+                    <td><button onclick="getn('9')">9</button></td>
+                    <td><button onclick="getn('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getn('4')">4</button></td>
+                    <td><button onclick="getn('5')">5</button></td>
+                    <td><button onclick="getn('6')">6</button></td>
+                    <td><button onclick="getn('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getn('1')">1</button></td>
+                    <td><button onclick="getn('2')">2</button></td>
+                    <td><button onclick="getn('3')">3</button></td>
+                    <td><button onclick="getn('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getn('.')">.</button></td>
+                    <td><button onclick="getn('0')">0</button></td>
+                    <td><button onclick="getr('=')">=</button></td>
+                    <td><button onclick="getn('+')">+</button></td>
+                </tr>
+                <!-- <tr>
+            <td><button>.</button></td>
+            <td><button>.</button></td>
+            <td><button>.</button></td>
+            <td colspan="4" class="clr"><button>C</button></td>
+        </tr> -->
+
+            </table>
+        </div>
+        <!-- <div class="imag">
+            <img src="https://i.pinimg.com/originals/89/be/65/89be657c2b99e118a43109537ca46aff.gif" alt="">
+
+        </div> -->
+
+
+        <!-- calculator ends here -->
+        
+        <div class="scicalculator">
+
+            <table>
+                <!-- <input type="text" id="result"> -->
+
+                <tr>
+                    <td><button onclick="Sinn()">sin</button></td>
+                    <td><button onclick="Cosn()">cos</button></td>
+                    <td><button onclick="Tann()">tan</button></td>
+                    <td><button onclick="getn(Math.PI)">pi</button></td>
+                    <td><button onclick="fact()">!</button></td>
+                </tr>
+                <tr>
+                   
+                   
+                    <td><button onclick="getn('Math.exp')">e^x</button></td>
+                    <td><button onclick="getn(Math.E)">e</button></td>
+                    <td><button onclick="getn(Math.exp)">e^</button></td>
+                    <td><button onclick="getn('^2')">x^2</button></td>
+                    <td><button onclick="getn('^3')">x^3</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getn()">n√</button></td>
+                    
+                    <td><button onclick="getn('Math.sqrt')">√</button></td>
+                    <td><button onclick="getn('Math.trunc(')">trunc</button></td>
+                    <td><button onclick="getn('Math.random()')">ran#</button></td>
+                    <td><button onclick="getn('Math.abs')">abs</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getn('Math.log(')">log</button></td>
+                    <td><button onclick="getn()">x^n</button></td>
+                    <td><button onclick="getn()">x^3</button></td>
+                    <td><button onclick="getn()">x^2</button></td>
+                    <td><button onclick="getn()">%</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getn()"></button></td>
+                    <td><button onclick="getn('(')">(</button></td>
+                    <td><button onclick="getn(')')">)</button></td>
+                    <td><button onclick=" rmv()">del</button></td>
+                    <td><button onclick="clr()">Cl</button></td>
+                </tr>
+                <!-- <tr>
+            <td><button>.</button></td>
+            <td><button>.</button></td>
+            <td><button>.</button></td>
+            <td colspan="4" class="clr"><button>C</button></td>
+        </tr> -->
+
+            </table>
+        </div>
+    </div>
+
+
+    <script src="./scrpt.js"></script>
+</body>
+
+</html>
