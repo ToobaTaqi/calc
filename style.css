@@ -20,8 +20,8 @@ body {
 
 input {
     border-radius: 5px;
-    /* border: 1px solid #238bcb; */
-    border: none;
+    border: 1px solid #238bcb;
+    /* border: none; */
     font-size: 34px;
     height: 65px;
     width: 445px;
@@ -72,10 +72,13 @@ button:hover {
     width: 550px;
     height: 515px;
 }
-.imag{
+/* .imag{
     max-width: 50px;
 }
 img{
     max-width: 150px;
     
+} */
+.dis{
+    background-color: #238bcb;
 }
